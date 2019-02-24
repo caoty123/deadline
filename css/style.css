@@ -1,0 +1,120 @@
+body{
+    background: lightgray; /* mau cua background */
+    padding-top:50px;
+}
+header{
+    height:50px;
+}
+.navigation {
+    position:relative;
+    width:100%;
+}
+.navigation .center {
+    position:absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.navigation li a {
+    color:black!important;
+    padding:15px 45px;
+}
+.navigation li a:hover {
+    color:white!important;
+    background-color: black!important;
+    border-radius:40px;
+}
+
+.cf-bike {
+    height: 200px;
+    width:100%;
+}
+.no-padding{
+    padding:0!important;
+}
+.text-size{
+    font-size:20px;
+}
+.contact-img {
+    width:100%;
+    height:400px;
+}
+.title{
+    color:white;
+}
+/* responsive */
+@media screen and (max-width:768px) {
+    .navigation li a {
+        padding: 15px 33px!important;
+        float:left;
+    } 
+    .center{
+        width:100%;
+    }
+    .navbar-nav {
+        margin: 3.5px 0px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .navigation li a {
+        padding: 15px 33px!important;
+        float:left;
+    } 
+    .center{
+        width:100%;
+    }
+    .navbar-nav {
+        margin: 3.5px 0px;
+    }
+}
+@media screen and (max-width:420px) {
+    .navigation li a {
+        padding: 15px 22px!important;
+        float:left;
+    } 
+    .center{
+        width:100%;
+    }
+    .navbar-nav {
+        margin: 3.5px 0px;
+    }
+}
+@media screen and (max-width:376px){
+    .navigation li a {
+        padding: 15px 17px!important;
+        float:left;
+    } 
+    .center{
+        width:100%;
+    }
+    .navbar-nav {
+        margin: 3.5px 0px;
+    }
+    
+}
+/* fixed top menu */
+#header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+}
+/* footer */
+footer{
+    margin-top:20px;
+    background-color:white;
+}
+.ind-text {
+    text-indent:20px;
+}
+.mini-contact {
+    width:100%;
+    height:200px;
+    margin-top:20px;
+}
+.copyright {
+    background-color:lightgrey;
+    width:100%;
+}
